@@ -30,7 +30,7 @@ INSERT INTO store VALUES(25, 'coconut oil', 'oils', 22.84, 49);
 
 --Display the database ordered by price.
 SELECT * FROM store
-ORDER BY price desc;
+ORDER BY price DESC;
 
 --What is the avg price of items in the frozen section?
 SELECT AVG(price) 'avg frozen item price'
@@ -40,5 +40,5 @@ WHERE section='frozen';
 --What are the 5 most popular items?
 SELECT item, price, popularity
 FROM store
-ORDER BY popularity asc
+ORDER BY popularity ASC
 LIMIT 5;
