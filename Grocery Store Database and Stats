@@ -2,31 +2,31 @@
 
 CREATE TABLE store (id INTEGER PRIMARY KEY, item TEXT, section TEXT, price INTEGER, popularity INTEGER);
 
-INSERT INTO store VALUES(1, 'apple', 'fruit', 1.25, 30);
-INSERT INTO store VALUES(2, 'banana', 'fruit', 0.97, 29);
-INSERT INTO store VALUES(3, 'avocado', 'fruit', 1.96, 36);
-INSERT INTO store VALUES(4, 'orange', 'fruit', 1.49, 38);
-INSERT INTO store VALUES(5, 'mango', 'fruit', 1.82, 45);
-INSERT INTO store VALUES(6, 'broccoli', 'vegetables', 1.92, 40);
-INSERT INTO store VALUES(7, 'carrot', 'vegetables', 1.56, 37);
-INSERT INTO store VALUES(8, 'spinach', 'vegetables', 2.28, 41);
-INSERT INTO store VALUES(9, 'potato', 'vegetables', 3.87, 34);
-INSERT INTO store VALUES(10, 'tomato', 'vegetables', 2.19, 35);
-INSERT INTO store VALUES(11, 'chicken breast', 'protein', 8.39, 39);
-INSERT INTO store VALUES(12, 'ground beef', 'protein', 5.25, 44);
-INSERT INTO store VALUES(13, 'eggs', 'protein', 4.94, 26);
-INSERT INTO store VALUES(14, 'milk', 'dairy', 4.79, 25);
-INSERT INTO store VALUES(15, 'cheese', 'dairy', 3.29, 33);
-INSERT INTO store VALUES(16, 'yogurt', 'dairy', 5.74, 42);
-INSERT INTO store VALUES(17, 'bread', 'grains', 2.79, 27);
-INSERT INTO store VALUES(18, 'oats', 'grains', 5.59, 28);
-INSERT INTO store VALUES(19, 'pasta', 'grains', 1.99, 46);
-INSERT INTO store VALUES(20, 'rice', 'grains', 0.63, 47);
-INSERT INTO store VALUES(21, 'blueberries', 'frozen', 8.29, 31);
-INSERT INTO store VALUES(22, 'strawberries', 'frozen', 10.99, 32);
-INSERT INTO store VALUES(23, 'ice cream', 'frozen', 3.50, 43);
-INSERT INTO store VALUES(24, 'olive oil', 'oils', 15.98, 48);
-INSERT INTO store VALUES(25, 'coconut oil', 'oils', 22.84, 49);
+INSERT INTO store VALUES (1, 'apple', 'fruit', 1.25, 30);
+INSERT INTO store VALUES (2, 'banana', 'fruit', 0.97, 29);
+INSERT INTO store VALUES (3, 'avocado', 'fruit', 1.96, 36);
+INSERT INTO store VALUES (4, 'orange', 'fruit', 1.49, 38);
+INSERT INTO store VALUES (5, 'mango', 'fruit', 1.82, 45);
+INSERT INTO store VALUES (6, 'broccoli', 'vegetables', 1.92, 40);
+INSERT INTO store VALUES (7, 'carrot', 'vegetables', 1.56, 37);
+INSERT INTO store VALUES (8, 'spinach', 'vegetables', 2.28, 41);
+INSERT INTO store VALUES (9, 'potato', 'vegetables', 3.87, 34);
+INSERT INTO store VALUES (10, 'tomato', 'vegetables', 2.19, 35);
+INSERT INTO store VALUES (11, 'chicken breast', 'protein', 8.39, 39);
+INSERT INTO store VALUES (12, 'ground beef', 'protein', 5.25, 44);
+INSERT INTO store VALUES (13, 'eggs', 'protein', 4.94, 26);
+INSERT INTO store VALUES (14, 'milk', 'dairy', 4.79, 25);
+INSERT INTO store VALUES (15, 'cheese', 'dairy', 3.29, 33);
+INSERT INTO store VALUES (16, 'yogurt', 'dairy', 5.74, 42);
+INSERT INTO store VALUES (17, 'bread', 'grains', 2.79, 27);
+INSERT INTO store VALUES (18, 'oats', 'grains', 5.59, 28);
+INSERT INTO store VALUES (19, 'pasta', 'grains', 1.99, 46);
+INSERT INTO store VALUES (20, 'rice', 'grains', 0.63, 47);
+INSERT INTO store VALUES (21, 'blueberries', 'frozen', 8.29, 31);
+INSERT INTO store VALUES (22, 'strawberries', 'frozen', 10.99, 32);
+INSERT INTO store VALUES (23, 'ice cream', 'frozen', 3.50, 43);
+INSERT INTO store VALUES (24, 'olive oil', 'oils', 15.98, 48);
+INSERT INTO store VALUES (25, 'coconut oil', 'oils', 22.84, 49);
 
 --Display the database ordered by price.
 SELECT * FROM store
